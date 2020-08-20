@@ -1,0 +1,130 @@
+body { 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    color: #948473;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 20%;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #4a9e13;
+    color: black;
+}
+
+/* Main content */
+.main {
+    float: left;
+    margin-top: 80px; /* Add a top margin to avoid content overlay */
+    margin: 30px;
+    width: 100%;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(31, 148, 128);
+    font-size: large;
+}
+
+.intro {
+    margin: 0 auto;
+    width: 70%;
+}
+
+table.mainTable {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+/* Center each element except the left column*/
+table.mainTable td:nth-child(n+2), th:nth-child(n+2) {
+    text-align: center;
+}
+
+table.mainTable th {
+    padding: 5px;
+    background-color: rgb(31, 148, 128);
+}
+
+table.maintable tr, td {
+    padding: 4px;
+    border-bottom: 1px solid rgb(31, 148, 128);
+}
+
+
+
+/* Main books table
+table.mainTable {
+    border: 6px solid #948473;
+    background-color: #FFE3C6;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table.mainTable th {
+    padding: 4px;
+    border-bottom: 1px solid #948473;
+}
+
+table.mainTable td {
+    padding: 4px 4px;
+    border-bottom: 1px solid #948473;
+}
+table.mainTable tbody td {
+    font-size: 13px;
+}
+table.mainTable thead {
+    background: #948473;
+    background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+table.mainTable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: left;
+    border-left: 2px solid #948473;
+}
+table.mainTable thead th:first-child {
+    border-left: none;
+}
+
+table.mainTable tfoot {
+    font-size: 16px;
+    font-weight: bold;
+    color: #F0F0F0;
+    background: #948473;
+    background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+    background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+table.mainTable tfoot td {
+    font-size: 160px;
+}
+*/
