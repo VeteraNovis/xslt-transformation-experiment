@@ -10,7 +10,7 @@ See below for a screenshot of the XML file after XSLT and CSS has been applied.
 
 ## Authors
 
-* **Callum Wood** - *Initial work* - [Callum-W](https://github.com/Callum-W)
+* **VeteraNovis** - *Initial work* - [VeteraNovis](https://github.com/VeteraNovis)
 
 
 ## License
